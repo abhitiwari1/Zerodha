@@ -1,0 +1,173 @@
+
+.nav-item {
+  margin-left: 40px;
+}
+.col a{
+  color: gray;
+  text-decoration: none;
+  line-height: 2.5;
+}
+.col a:hover {
+  color: rgb(18, 123, 228);
+}
+.link{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+.link a {
+  color: gray;
+  text-decoration: none;
+  font-size: 0.8rem;
+  font-weight: 500;
+}
+.link a:hover {
+  color: rgb(18, 123, 228);
+}
+
+.card {
+  border: 1px solid #e0e0e0;
+  border-radius: 5px;
+  height: 180px;
+  width: 320px;
+  display: flex;
+  align-items: flex-start;
+  background-color: white;
+}
+.card:hover {
+  border: 1px solid blue;
+ 
+}
+
+.icon-wrapper {
+  background-color: #eef4ff;
+  padding: 10px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 25px;
+  margin-left: -20px;
+}
+
+.icon {
+  width: 20px;
+  height: 20px;
+}
+
+.content h3 {
+  font-size: 19px;
+  font-weight: 500;
+  color: #333;
+  color: rgba(21, 5, 5, 0.718);
+}
+
+.content p {
+  font-size: 17px;
+  color: #555;
+}
+
+.accordion-button::after {
+  transition: transform 0.2s;
+}
+.accordion-button:not(.collapsed)::after {
+  transform: rotate(-180deg);
+}
+.accordion-button {
+  font-weight: 600;
+}
+
+.brand-card {
+  text-align: center;
+  padding: 20px;
+}
+
+.brand-desc {
+  color: #6c757d;
+  font-size: 0.85rem;
+  font-weight: 500;
+}
+
+.price-icon {
+  font-size: 80px;
+  font-weight: bold;
+  color: #f8a535;
+}
+.price-title {
+  font-size: 22px;
+  font-weight: 600;
+  margin-top: 20px;
+}
+.price-desc {
+  font-size: 17px;
+  color: #555;
+}
+
+.nav-tabs .nav-link {
+  background: none;
+  border: none;
+  border-bottom: 2px solid transparent;
+  color: #555;
+  font-weight: 500;
+}
+
+.nav-tabs .nav-link.active {
+  border-color: #0d6efd;
+  color: #0d6efd;
+  background-color: transparent;
+}
+
+.table-outline-only {
+  border-collapse: collapse;
+  border: 1px solid rgba(128, 128, 128, 0.309);
+}
+
+.table-outline-only th,
+.table-outline-only td {
+  border: none !important;
+  vertical-align: middle;
+  padding: 8px 25px;
+}
+
+.table-outline-only thead {
+  border-bottom: 1px solid rgba(128, 128, 128, 0.309);
+}
+
+.table-outline-only tbody tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.table-outline-only tr:first-child th {
+  border-top: none;
+}
+
+.table-outline-only tr td {
+  color: rgba(0, 0, 0, 0.594);
+}
+
+.charges h5 {
+  font-size: 17px;
+  font-weight: 400;
+  margin-bottom: 22px;
+}
+
+.charges p {
+  font-size: 13px;
+  margin-bottom: 20px;
+}
+
+.charges li {
+  font-size: 13px;
+  margin-bottom: 5px;
+}
+
+.charges ul{
+  margin-bottom: 20px;
+}
+
+
+
+
+
+
