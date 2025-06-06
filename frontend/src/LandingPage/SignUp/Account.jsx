@@ -1,11 +1,11 @@
 
 export default function Account(){
     return(
-        <div className="container mt-5 p-5" style={{marginLeft: "175px", marginRight: "175px"}}>
+        <div className="container mt-5 p-5" style={{width: "80%", margin: "auto"}}>
             <h2 className="mb-5 text-center" style={{color: "rgba(21, 5, 5, 0.74)"}}>Explore different account types</h2>
             <div className="row">
                 <div className="col-4">
-                   <a href="" style={{textDecoration: "none"}}>
+                   <a href="" className="text-decoration-none">
                         <div className="card">
                             <div className="icon-wrapper">
                                 <img src="media/images/individual.svg" alt="Individual Icon" className="icon" />
@@ -18,7 +18,7 @@ export default function Account(){
                     </a>
                 </div>
                 <div className="col-4">
-                    <a href="" style={{textDecoration: "none"}}>
+                    <a href="" className="text-decoration-none">
                         <div className="card">
                             <div className="icon-wrapper">
                                 <img src="media/images/huf.svg" alt="HUF Icon" className="icon" />
@@ -31,7 +31,7 @@ export default function Account(){
                     </a>
                 </div>
                 <div className="col-4">
-                     <a href="" style={{textDecoration: "none"}}>
+                     <a href="" className="text-decoration-none">
                         <div className="card">
                             <div className="icon-wrapper">
                                 <img src="media/images/nri.svg" alt="NRI Icon" className="icon" />
@@ -46,7 +46,7 @@ export default function Account(){
             </div>
             <div className="row mt-5">
                 <div className="col-4">
-                   <a href="" style={{textDecoration: "none"}}>
+                   <a href="" className="text-decoration-none">
                         <div className="card">
                             <div className="icon-wrapper">
                                 <img src="media/images/minor.svg" alt="Minor Icon" className="icon" />
@@ -59,7 +59,7 @@ export default function Account(){
                     </a>
                 </div>
                 <div className="col-4">
-                    <a href="" style={{textDecoration: "none"}}>
+                    <a href="" className="text-decoration-none">
                         <div className="card">
                             <div className="icon-wrapper">
                                 <img src="media/images/corporate.svg" alt="Corporate Icon" className="icon" />

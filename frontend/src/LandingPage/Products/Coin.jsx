@@ -9,7 +9,7 @@ export default function Coin(){
                 <div className="col-4" style={{marginTop: "100px"}}>
                     <h2 className="mb-4">Coin</h2>
                     <p style={{fontSize: "16px"}}>Buy direct mutual funds online, commission- <br />free, delivered directly to your Demat <br />account. Enjoy the investment experience <br />on your Android and iOS devices.</p>
-                    <a href="" style={{textDecoration: "none"}}>Coin <i className="fa-solid fa-arrow-right"></i></a>
+                    <a href="" className="text-decoration-none">Coin <i className="fa-solid fa-arrow-right"></i></a>
                     <div className="row">
                         <div className="col-6">
                             <img src="media/images/googlePlayBadge.svg" alt="Google Play" className="mt-4"/>

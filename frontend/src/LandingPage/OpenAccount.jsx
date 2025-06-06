@@ -7,6 +7,6 @@ export default function OpenAccount() {
                 <button className="p-2 btn btn-primary mt-3 fs-5 mb-4" style={{width: "15%", margin: "0 auto"}}>Sign up now</button>
             </div>
         </div>
-    )
+    );
 }
     

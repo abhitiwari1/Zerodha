@@ -76,8 +76,8 @@ export default function Charges() {
                     </div>
                     <div>
                         <h5>AMC (Account maintenance charges)</h5>
-                        <p>For BSDA demat account: Zero charges if the holding value is less than ₹4,00,000. To learn more about BSDA, <a href="" style={{textDecoration: "none"}}>Click here</a></p>
-                        <p>For non-BSDA demat accounts: ₹300/year + 18% GST charged quarterly (90 days). To learn more about AMC, <a href="" style={{textDecoration: "none"}}>Click here</a></p>
+                        <p>For BSDA demat account: Zero charges if the holding value is less than ₹4,00,000. To learn more about BSDA, <a href="" className="text-decoration-none">Click here</a></p>
+                        <p>For non-BSDA demat accounts: ₹300/year + 18% GST charged quarterly (90 days). To learn more about AMC, <a href="" className="text-decoration-none">Click here</a></p>
                     </div>
                     <div>
                         <h5>Corporate action order charges</h5>
@@ -97,7 +97,7 @@ export default function Charges() {
                     </div>
                     <div>
                         <h5>Delayed Payment Charges</h5>
-                        <p>Interest is levied at 18% a year or 0.05% per day on the debit balance in your trading account. <a href="" style={{textDecoration: "none"}}>Learn more.</a></p>
+                        <p>Interest is levied at 18% a year or 0.05% per day on the debit balance in your trading account. <a href="" className="text-decoration-none">Learn more.</a></p>
                     </div>
                     <div>
                         <h5>Trading using 3-in-1 account with block functionality</h5>

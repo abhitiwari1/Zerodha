@@ -1,13 +1,13 @@
 // import "./LandingPage/Benefits.css";
 export default function Benefits(){
     return(
-        <div className="container  mb-5" style={{marginLeft: "300px", marginRight: "150px", marginTop: "200px"}}>
+        <div className="container  mb-5" style={{width: "75%", margin: "auto", marginTop: "200px"}}>
             <div className="row">
                 <div className="col-6">
-                    <img src="media/images/benefits.svg" alt="Benefits" style={{width: "55%"}}/>
-                    <h2 className="text-muted" style={{marginLeft: "-80px", fontWeight: "500", marginTop: "30px"}}>Benefits of opening a Zerodha <br />demat account</h2>
+                    <img src="media/images/benefits.svg" alt="Benefits" style={{width: "65%", marginLeft: "100px"}}/>
+                    <h2 className="text-muted" style={{marginLeft: "20px", fontWeight: "500", marginTop: "30px"}}>Benefits of opening a Zerodha <br />demat account</h2>
                 </div>
-                <div className="col-6" style={{marginTop: "-100px", marginLeft: "-150px"}}>
+                <div className="col-6" style={{marginTop: "-100px"}}>
                     <h4 className="text-muted">Unbeatable pricing</h4>
                     <p className="mt-4 mb-5 text-muted" style={{fontSize: "17px"}}>Zero charges for equity & mutual fund investments. Flat ₹20 fees for <br />intraday and F&O trades.</p>
                     <h4 className="text-muted">Best investing experience</h4>

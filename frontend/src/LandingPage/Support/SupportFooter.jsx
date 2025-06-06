@@ -8,10 +8,10 @@ export default function SupportFooter() {
                         <img src="media/images/logo.svg" alt="Logo" style={{width: "60%"}} />
                         <p className="mt-3 text-muted" style={{fontSize: "0.7rem"}}>&copy; 2010 - 2024, Not Zerodha Broking Ltd.<br/> All rights reserved.</p>
                         <div className="mt-3 d-flex justify-content-between" style={{width: "70%"}}>
-                            <a className='fs-5' href=""><i class="fa-brands fa-x-twitter"></i></a>
-                            <a className='fs-5' href=""><i class="fa-brands fa-square-facebook"></i></a>
-                            <a className='fs-5' href=""><i class="fa-brands fa-instagram"></i></a>
-                            <a className='fs-5' href=""><i class="fa-brands fa-linkedin-in"></i></a>
+                            <a className='fs-5' href=""><i className="fa-brands fa-x-twitter"></i></a>
+                            <a className='fs-5' href=""><i className="fa-brands fa-square-facebook"></i></a>
+                            <a className='fs-5' href=""><i className="fa-brands fa-instagram"></i></a>
+                            <a className='fs-5' href=""><i className="fa-brands fa-linkedin-in"></i></a>
                         </div>
                     </div>
 

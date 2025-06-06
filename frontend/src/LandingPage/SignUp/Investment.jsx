@@ -2,7 +2,7 @@ export default function Investment() {
     return(
         <div className="container mt-5 p-5 mb-5">
             <h2 className="text-center">Investment options with Zerodha demat account</h2>
-            <div className="row" style={{marginLeft: "150px", marginRight: "150px", marginTop: "100px"}}>
+            <div className="row" style={{width: "80%", margin: "auto", marginTop: "100px"}}>
                 <div className="col-6">
                     <div className="row">
                         <div className="col-3">

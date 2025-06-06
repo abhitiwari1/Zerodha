@@ -3,7 +3,7 @@ export default function DematAccount() {
         <div className="main bg-body-tertiary mt-5 p-5">
             <div className="container">
                 <h2 className="text-center" style={{marginBottom: "10px"}}>Steps to open a demat account with Zerodha</h2>
-                <div className="row" style={{marginLeft: "200px", marginRight: "150px", marginTop: "50px"}}>
+                <div className="row" style={{width: "80%", margin: "auto", marginTop: "50px"}}>
                     <div className="col-6">
                         <img src="media/images/dematAccount.svg" alt="Demat Account" />
                     </div>

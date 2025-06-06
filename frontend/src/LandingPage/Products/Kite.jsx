@@ -11,11 +11,11 @@ export default function Kite(){
                     <p style={{fontSize: "17px"}}>Our ultra-fast flagship trading platform with <br />streaming market data, advanced charts, an <br />elegant UI, and more. Enjoy the Kite <br />experience seamlessly on your Android and <br />iOS devices.</p>
                     <div className="row">
                         <div className="col-6">
-                            <a href="" style={{textDecoration: "none"}}>Try demo <i className="fa-solid fa-arrow-right"></i></a>
+                            <a href="" className="text-decoration-none">Try demo <i className="fa-solid fa-arrow-right"></i></a>
                             <img src="media/images/googlePlayBadge.svg" alt="Google Play" className="mt-4"/>
                         </div>
                         <div className="col-6">
-                            <a href="" style={{textDecoration: "none"}}>Learn more <i className="fa-solid fa-arrow-right"></i></a>
+                            <a href="" className="text-decoration-none">Learn more <i className="fa-solid fa-arrow-right"></i></a>
                             <img src="media/images/appstoreBadge.svg" alt="App Store" className="mt-4"/>
                         </div>
                     </div>

@@ -1,6 +1,6 @@
 export default function Hero() {
     return (
-        <div classNameName="header" style={{backgroundColor: "#387ed1", color: "white"}}>
+        <div className="header" style={{backgroundColor: "#387ed1", color: "white"}}>
             <div className="container py-5" style={{width: "75%", margin: "auto"}}>
                 <div className="row">
                     <div className="col-md-7">
