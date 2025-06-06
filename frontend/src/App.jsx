@@ -1,9 +1,9 @@
-import PricingPage from "./LandingPage/Pricing/PricingPage"
+import SupportPage from "./LandingPage/Support/SupportPage"
 
 function App() {
   return (
     <>
-      <PricingPage />
+      <SupportPage />
     </>
   )
 }

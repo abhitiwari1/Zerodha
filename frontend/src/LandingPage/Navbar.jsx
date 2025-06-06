@@ -1,6 +1,6 @@
 export default function Navbar() {
     return (
-            <nav className="navbar navbar-expand-lg bg-body-light border-bottom p-2 mb-5">
+            <nav className="navbar navbar-expand-lg bg-body-light border-bottom p-2">
                 <div className="container-fluid">
                     <a className="navbar-brand" href="#">
                         <img src="media/images/logo.svg" alt="Logo" style={{width: "25%", marginLeft: "100px"}} />

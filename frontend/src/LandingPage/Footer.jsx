@@ -4,7 +4,7 @@ export default function Footer() {
         <footer className="bg-body-tertiary ">
             <div className="border-top">
                 <div className="row mt-4" style={{marginLeft: "150px", marginRight: "150px"}}>
-                    <div className="col">
+                    <div className="col column">
                         <img src="media/images/logo.svg" alt="Logo" style={{width: "60%"}} />
                         <p className="mt-3 text-muted" style={{fontSize: "0.7rem"}}>&copy; 2010 - 2024, Not Zerodha Broking Ltd.<br/> All rights reserved.</p>
                         <div className="mt-3 d-flex justify-content-between" style={{width: "70%"}}>
@@ -20,7 +20,7 @@ export default function Footer() {
                             <a className='fs-5' href=""><i class="fa-brands fa-telegram"></i></a>
                         </div>
                     </div>
-                    <div className="col">
+                    <div className="col column">
                         <p className="fs-5">Account</p>
                         <a href="">Open demat account</a><br />
                         <a href="">Minor demat account</a><br />
@@ -31,7 +31,7 @@ export default function Footer() {
                         <a href="">MTF</a><br />
                         <a href="">Referral program</a>   
                     </div>
-                    <div className="col">
+                    <div className="col column">
                         <p className="fs-5">Support</p>
                         <a href="#">Contact us</a><br />
                         <a href="#">Support portal</a><br />
@@ -42,7 +42,7 @@ export default function Footer() {
                         <a href="#">Z-Connect blog</a><br />
                         <a href="#">Downloads</a>
                     </div>
-                    <div className="col">
+                    <div className="col column">
                         <p className="fs-5">Company</p>
                         <a href="">About</a><br />
                         <a href="">Philosophy</a><br />
@@ -52,7 +52,7 @@ export default function Footer() {
                         <a href="">Zerodha.tech</a><br />
                         <a href="">Open source</a>
                     </div>
-                    <div className="col">
+                    <div className="col column">
                         <p className="fs-5">Quick links</p>
                         <a href="">Upcoming IPOs</a><br />
                         <a href="">Brokerage charges</a><br />

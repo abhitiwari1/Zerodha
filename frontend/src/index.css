@@ -2,12 +2,16 @@
 .nav-item {
   margin-left: 40px;
 }
-.col a{
+.column p{
+  font-weight: 600;
+  color: #000508a9;
+}
+.column a{
   color: gray;
   text-decoration: none;
   line-height: 2.5;
 }
-.col a:hover {
+.column a:hover {
   color: rgb(18, 123, 228);
 }
 .link{
@@ -166,6 +170,78 @@
   margin-bottom: 20px;
 }
 
+.search-box {
+  background-color: white;
+  border-radius: 5px;
+  padding: 15px 20px;
+  display: flex;
+  align-items: center;
+}
+.search-box input {
+  border: none;
+  outline: none;
+  flex-grow: 1;
+  color: #555;
+}
+.search-box i {
+  font-size: 20px;
+  color: #777;
+}
+.link-list a {
+  display: inline-block;
+  text-decoration: none;
+  margin-right: 30px;
+  font-size: 16px;
+  font-weight: 600;
+  color: #fff;
+  border-bottom: 1px solid #fff;
+  padding-bottom: 4px;
+  margin-bottom: 15px;
+}
+.featured {
+  margin-top: 70px;
+  margin-left: 20px;
+}
+.featured a {
+  color: #fff;
+  font-size: 17px;
+  text-decoration: underline;
+}
+.featured li {
+  margin-bottom: 20px;
+}
+
+.navigate p {
+  font-size: 1.3rem;
+  margin-bottom: 20px;
+}
+.navigate p a{
+  color: #333;
+}
+.navigate p a:hover{
+  color: #387ed1;
+}
+.navigate a{
+  text-decoration: none;
+  line-height: 2.3;
+  color: #387ed1;
+}
+.navigate a:hover {
+  color: gray;
+}
+
+.redirect p{
+  font-weight: 600;
+  color: #000508a9;
+}
+.redirect a{
+  color: gray;
+  text-decoration: none;
+  line-height: 2;
+}
+.redirect a:hover {
+  color: rgb(18, 123, 228);
+}
 
 
 

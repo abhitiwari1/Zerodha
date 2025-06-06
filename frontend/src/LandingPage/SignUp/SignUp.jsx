@@ -1,6 +1,6 @@
 export default function SignUp() {
     return (
-        <div className="container mt-5 p-5 mb-5" style={{marginLeft: "230px", marginRight: "250px"}}>
+        <div className="container mt-5 p-5 mb-5 mt-5" style={{marginLeft: "230px", marginRight: "250px"}}>
             <h1 style={{fontSize: "44px"}}>Open a free demat and trading account online</h1>
             <p className="fs-5 mt-4 mb-5 text-muted" style={{marginLeft: "70px", fontWeight: "500"}}>Start investing brokerage free and join a community of 1.6+ crore investors and traders</p>
             <div className="row mt-5">
